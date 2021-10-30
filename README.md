@@ -16,15 +16,15 @@ The purpose of this analysis is to create a neural network model that can predic
         * First optimization, we increase the quantity of the nodes by a factor of two, and the model started to show signs of overfitting. This model yielded the same accuracy of 72%. 
         ![Accuracy_and_Loss](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try1_metrics.PNG)
         
-        ![Accuracy_and_Loss_Charts](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try1.PNG
+        ![Accuracy_and_Loss_Charts](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try1.PNG)
         * Second optimization, we changed the second layer from a linear relationship to a "LeakyRelu", this will allow for the model to continue learning if any input coefficients are negative and will allow us to determine if they are any thresholds for any of the features.  This model also yielded the same accuracy of 72%.
         ![Accuracy_and_Loss](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try2_metrics.PNG)
         
-        ![Accuracy_and_Loss_Charts](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try2.PNG
+        ![Accuracy_and_Loss_Charts](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try2.PNG)
         * Third optimization, we added a neural network layer with a "ReLu" activation function.This model yielded a bit better, with an accuracy of 73%.
         ![Accuracy_and_Loss](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try3_metrics.PNG)
         
-        ![Accuracy_and_Loss_Charts](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try3.PNG
+        ![Accuracy_and_Loss_Charts](https://github.com/rick2stack/Neural_Network_Charity_Analysis/blob/main/Resources/second_attempt_try3.PNG)
 
 ## Summary
 
